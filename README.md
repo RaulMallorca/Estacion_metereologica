@@ -15,6 +15,13 @@ _El material utilizado se puede modificar pero se tendrá que hacer lo propio co
 
 **NodeMCU**
 
+![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/pictures/NodeMCUv3.jpg?raw=true)
+
+
+![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/pictures/NodeMCU-pines.png?raw=true)
+
+
+
 Poco que añadir a esta placa. http://nodemcu.com/index_en.html. Basada en el ESP8266.
 
 Tiene un puerto micro USB
