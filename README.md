@@ -2,10 +2,10 @@
 
 _Modesto proyecto para afianzar conocimientos adquiridos en varios ámbitos._
 _Este proyecto está basado en la colaboración de todas esas personas que comparten desisteresadamente sus trabajos. Está modificado para conseguir lo deseado._
-_En algun lugar de este readme.me intentaré añadir todos los enlaces gracias a los cuales espero conseguir realizar la estación meteorológica._
+_En algun lugar de este readme.me intentaré añadir todos los enlaces, gracias a los cuales, espero conseguir realizar la estación meteorológica._
 
 Descripción del proyecto
-_La estación medirá la temperatura, humedad, presión, tanto interior como exterior. Rayos UV, velocidad del viento y lluvia. Los datos se visualizarán en un dashboard creado 
+_La estación medirá la temperatura, humedad, presión, tanto interior como exterior, rayos UV, velocidad del viento y lluvia. Los datos se visualizarán en un dashboard creado 
 en la plataforma de gestión de datos Thinger.io además de en una pantalla Nextion situada dentro del hogar.
 
 
@@ -14,6 +14,10 @@ en la plataforma de gestión de datos Thinger.io además de en una pantalla Next
 _El material utilizado se puede modificar pero se tendrá que hacer lo propio con el código._
 
 **NodeMCU**
+
+![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/pictures/NodeMCUv3.jpg?raw=true)
+
+![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/pictures/NodeMCU-pines.png?raw=true)
 
 Poco que añadir a esta placa. http://nodemcu.com/index_en.html. Basada en el ESP8266.
 
@@ -35,6 +39,8 @@ La v3 que yo tengo, solo se puede usar a 9600 bps Al establecer conexión median
 **SENSORES**
 
 **BME280** 	
+
+![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/pictures/BMP280.jpg?raw=true)
 
             Temperatura (rango de -40 a + 85 °C, precisión ±1 °C y resolución 0,01 °C)
 
