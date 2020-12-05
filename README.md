@@ -15,9 +15,9 @@ _El material utilizado se puede modificar pero se tendrá que hacer lo propio co
 
 **NodeMCU**
 
-![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/pictures/NodeMCUv3.jpg?raw=true)
+![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/master/pictures/NodeMCUv3.jpg)
 
-![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/pictures/NodeMCU-pines.png?raw=true)
+![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/master/pictures/NodeMCU-pines.png)
 
 Poco que añadir a esta placa. http://nodemcu.com/index_en.html. Basada en el ESP8266.
 
@@ -57,11 +57,20 @@ La v3 que yo tengo, solo se puede usar a 9600 bps Al establecer conexión median
             
 **LLUVIA**
 
+![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/master/pictures/Sensor_lluvia.jpg)
+
+
 **VELOCIDAD DEL VIENTO**
 
 **UV**
 
+![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/master/pictures/ML8511.jpg)
+
+
 **Pantalla Nextion NX8048P070-011C-Y**
+
+![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/master/pictures/Nextion%20NX8048P070-011C-Y.jpg)
+
 
 Pantalla táctil TFT capacitiva colores reales RGB 65K.
 
