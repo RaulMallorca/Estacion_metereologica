@@ -194,9 +194,9 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 
 ## Expresiones de Gratitud 🎁
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
+* Al usuario [Ega] https://community.thinger.io/u/ega, de la comunidad Thinger.io . Por la ayuda prestada para conseguir obtener los datos desde Thinger.io🤝 
+* A Luis de [Programarfacil.com] http://programarfacil.com. Detonante para decidirme a realizar mi propia estación.🙌
+* [esploradores.com] http://esploradores.com 
 * etc.
 
 
