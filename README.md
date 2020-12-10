@@ -98,8 +98,9 @@ Connection to GND disables the heater.
 ![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/master/pictures/ML8511.jpg)
 
 • Longitud de onda: 280-390nm
+
 • Current consumption  300 μA 
-                     standby current 0.1 μA
+                      standby current 0.1 μA
 
 
 **Pantalla Nextion NX8048P070-011C-Y**
