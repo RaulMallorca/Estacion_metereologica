@@ -55,14 +55,14 @@ La v3 que yo tengo, solo se puede usar a 9600 bps Al establecer conexión median
                     0.1 μA in sleep mode
 		        V 3,3V
             
-**LLUVIA**
+**SENSOR LLUVIA YL-83**
 
 ![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/master/pictures/Sensor_lluvia.jpg)
 
 
 **VELOCIDAD DEL VIENTO**
 
-**UV**
+**UV ML8511**
 
 ![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/master/pictures/ML8511.jpg)
 
