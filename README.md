@@ -42,22 +42,53 @@ La v3 que yo tengo, solo se puede usar a 9600 bps Al establecer conexión median
 
 ![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/pictures/BMP280.jpg?raw=true)
 
-            Temperatura (rango de -40 a + 85 °C, precisión ±1 °C y resolución 0,01 °C)
+• Temperatura (rango de -40 a + 85 °C, precisión ±1 °C y resolución 0,01 °C)
 
-          	Humedad (a 100%, con una precisión de ±3% Pa y una resolución de 0.008%)
+• Humedad (a 100%, con una precisión de ±3% Pa y una resolución de 0.008%)
             
-          	Presión (300-1100 hPa, precisión de ±1 Pa, y resolución de 0,18 Pa)
-            
+• Presión (300-1100 hPa, precisión de ±1 Pa, y resolución de 0,18 Pa)         
 
-	Current consumption 1.8 μA a 1Hz - Humedad y temperatura
+• Current consumption 1.8 μA a 1Hz - Humedad y temperatura
                     2.8 μA a 1Hz - Presión y temperatura
                     3.6 μA a 1Hz - Humedad, presión y temperatura
                     0.1 μA in sleep mode
-		        V 3,3V
+		    V 3,3V
             
 **SENSOR LLUVIA YL-83**
 
 ![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/master/pictures/Sensor_lluvia.jpg)
+
+Output
+
+• Maximum voltage 15 V
+
+• Maximum current 50 mA
+
+Input
+
+• Control to switch heater OFF
+
+Open circuit input enables the heater.
+
+Connection to GND disables the heater.
+
+• Contact rating min. 15 V, 2 mA
+
+• Supply voltage 12 VDC ± 10 %
+
+• Supply current
+
+• Typical less than 150mA
+
+• Maximum 260mA
+
+• Supply voltage 3,3 VDC (I'm not sure of this counting)
+
+• Supply current
+
+• Typical less than 41mA
+
+• Maximum 70mA
 
 
 **VELOCIDAD DEL VIENTO**
@@ -65,6 +96,10 @@ La v3 que yo tengo, solo se puede usar a 9600 bps Al establecer conexión median
 **UV ML8511**
 
 ![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/master/pictures/ML8511.jpg)
+
+• Longitud de onda: 280-390nm
+• Current consumption  300 μA 
+                     standby current 0.1 μA
 
 
 **Pantalla Nextion NX8048P070-011C-Y**
