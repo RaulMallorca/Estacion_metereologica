@@ -1,0 +1,20 @@
+
+```
+
+<?php
+	file_put_contents("text1.txt", "Holita");
+?>
+
+```
+
+Con la sintaxis anterior creamos un archivo llamado "text1.txt" y escribimos "Holita" 
+Este archivo se crea en la siguiente ruta:
+/volume2/web/Ejemplo_Jadsa_tv
+Desde el navegador accedemos con la siguiente dirección:
+http://192.168.1.59/Ejemplo_Jadsa_tv/prueba.php //http://IP_SERVIDOR/NOMBRE_CARPETA/ARCHIVO_PHP[donde está la función del principio]
+
+/etc/php
+
+file_uploads = On
+upload_tmp_dir = "/var/services/tmp"
+upload_max_filesize = 32M
