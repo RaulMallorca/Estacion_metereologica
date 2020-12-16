@@ -1,4 +1,4 @@
-Para tener acceso al archivo necesario donde se guardarán los valores de los sensores en el Synology hay que tener acceso root al mismo.
+##Para tener acceso al archivo necesario donde se guardarán los valores de los sensores en el Synology hay que tener acceso root al mismo.
 ```
 
 <?php
@@ -8,7 +8,9 @@ Para tener acceso al archivo necesario donde se guardarán los valores de los se
 ```
 
 Con la sintaxis anterior creamos un archivo llamado "text1.txt" y escribimos "Holita" 
+
 Este archivo se crea en la siguiente ruta:
+
 /volume2/web/Ejemplo_Jadsa_tv
 Desde el navegador accedemos con la siguiente dirección:
 http://192.168.1.59/Ejemplo_Jadsa_tv/prueba.php //http://IP_SERVIDOR/NOMBRE_CARPETA/ARCHIVO_PHP[donde está la función del principio]
