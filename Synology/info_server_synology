@@ -1,9 +1,12 @@
 Para tener acceso al archivo necesario donde se guardarán los valores de los sensores en el Synology hay que tener acceso root al mismo.
+
+```php
+
 <?php
-
 	file_put_contents("text1.txt", "Holita");
-
 ?>
+
+```
 
 Con la sintaxis anterior creamos un archivo llamado "text1.txt" y escribimos "Holita" 
 Este archivo se crea en la siguiente ruta:
