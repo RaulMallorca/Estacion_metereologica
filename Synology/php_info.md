@@ -21,12 +21,19 @@ Con el siguiente error:
 
 >Warning: file_put_contents(text1.txt): failed to open stream: Permission denied in /volume2/web/Ejemplo_Jadsa_tv/prueba.php on line 3
 
-El directorio temporal usado para almacenar ficheros durante el proceso de subida. Es necesario tener permisos de escritura para el usuario que está ejecutando PHP. Si no está especificado, PHP usará el predeterminado del sistema.
+https://www.php.net/manual/es/ini.core.php#ini.upload-tmp-dir
 
-Si el directorio especificado no tiene permisos de escritura, PHP recurrirá al directorio temporal predeterminado del sistema. Si la directiva open_basedir está activada, al directorio predeterminado del sistema se le ha de permitir la subida de ficheros para que funcione.
+
+>El directorio temporal usado para almacenar ficheros durante el proceso de subida. Es necesario tener permisos de escritura para el usuario que está ejecutando PHP. Si no está especificado, PHP usará el predeterminado del sistema.
+
+>Si el directorio especificado no tiene permisos de escritura, PHP recurrirá al directorio temporal predeterminado del sistema. Si la directiva open_basedir está activada, al directorio predeterminado del sistema se le ha de permitir la subida de ficheros para que funcione.
+
+
 
 /etc/php
 
 file_uploads = On
+
 upload_tmp_dir = "/var/services/tmp"
+
 upload_max_filesize = 32M
