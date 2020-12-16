@@ -1,4 +1,4 @@
-
+Para tener acceso al archivo necesario donde se guardarán los valores de los sensores en el Synology hay que tener acceso root al mismo.
 ```
 
 <?php
