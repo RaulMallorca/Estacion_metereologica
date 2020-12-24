@@ -17,3 +17,5 @@ Dentro del paréntesis debemos indicarle la dirección elegida, 0x76 o 0x77.
 La conexión con el nodeMCU no tiene complicación. Unimos el pin D1 del nodeMCU con el pin SCL y el pin D2 con el pin SDA del módulo. Compartimos masas y alimentamos el sensor con 3,3V o 5V, dependiendo si hemos comprado un módulo co regulador de tensión o sin él, en mi caso, compré ambos y terminé montando el de 3,3V. La placa del nodeMCU la alimentamos desde el USB.
 
 ![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/master/Sensores/BME280/BME280-NodeMCU.png)
+
+La batería del esquema es orientativa, para diferenciar la alimentación del módulo del sensor de la placa donde está alojado el 8266.
