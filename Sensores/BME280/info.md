@@ -1,17 +1,17 @@
 Las especificciones del sensor **BME280**, no confundirlo con el **BMP280** que no mide la humedad, son las siguientes:
 
-1. Resolución humedad 0.008 %RH
-  - Tolerancia precisión absoluta ± 3 %RH
+- Resolución humedad 0.008 %RH
+- Tolerancia precisión absoluta ± 3 %RH
   
-1. Resolución presión 0.18 Pa 
-  - Rango de medición 300 a 1100 hPa
+- Resolución presión 0.18 Pa 
+- Rango de medición 300 a 1100 hPa
   - Tolerancia precisión absoluta 
     - 300 ... 1100hPa y -20 ºC ...0 ºC ±1.7 hPa
     - 300 ... 1100hPa y 0 ºC ... 65 ºC ±1 hPa
     - 300 ... 1100hPa y 25 ºC... 40 ºC ±1.5 hPa
   
-1. Resolución temperatura 0.01 ºC
-  - Tolerancia precisión absoluta 
+- Resolución temperatura 0.01 ºC
+- Tolerancia precisión absoluta 
     - 0 ºC ... 65 ºC ± 1ºC
     - -20 ºC ... 0 ºC ±1.25 ºC
     - -40 ºC ... -20 ºC ±1.5 ºC
