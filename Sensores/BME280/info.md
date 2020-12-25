@@ -19,11 +19,12 @@ Las especificciones del sensor **BME280**, no confundirlo con el **BMP280** que 
 El resultado obtenido es en Pascales (Pa). 
 - **Equivalencias**
   - 1 bares = 100000 Pa
+  - 1 mbar = 100 Pa
   - 1 hPa = 100 Pa
   - 1 mmHg = 133,32 Pa
   - 1 hPa = 0.75 mmHg
 
-En el código la unidad está combertida a hPa de la siguiente manera:
+En el código la unidad está combertida a hPa o mbar de la siguiente manera:
 
 > **_(bme.readPressure() / 100.0F);_**
 
