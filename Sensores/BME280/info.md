@@ -16,11 +16,11 @@ Las especificciones del sensor **BME280**, no confundirlo con el **BMP280** que 
     - -20 ºC ... 0 ºC ±1.25 ºC
     - -40 ºC ... -20 ºC ±1.5 ºC
 
-El resultado obtenido es en Pascales. 
+El resultado obtenido es en Pascales (Pa). 
 - **Equivalencias**
-  - 1 bares = 100000 Pascales
-  - 1 hPa = 100 Pascales
-  - 1 mmHg = 133,32 Pascales
+  - 1 bares = 100000 Pa
+  - 1 hPa = 100 Pa
+  - 1 mmHg = 133,32 Pa
   - 1 hPa = 0.75 mmHg
 
 En el código la unidad está combertida a hPa de la siguiente manera:
