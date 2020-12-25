@@ -7,6 +7,8 @@ este aire frío gira en sentido horario. Lo contrario ocurre en el hemisferio su
 de lluvia. Se asocia a inestabilidad y mal tiempo. En el hemisferio norte el aire caliente y húmedo que sube gira en sentido contrario a las agujas del reloj. Lo contrario ocurre
 en el hemisferio sur.
 
+![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/master/Ampliacion/anticiclon-borrasca_2.jpg)
+
 > _Cuando el aire está frío, se contrae, aumenta la densidad y, por lo tanto, desciende, haciendo aumentar la presión y provocando estabilidad barométrica o anticiclónica: se 
 forma así una zona de calmas, es decir, sin vientos, ya que el aire frío y pesado desciende lentamente en sentido circular y comienza a girar casi imperceptiblemente en sentido 
 horario en el hemisferio norte y antihorario en el hemisferio sur. Se forma, entonces, un anticiclón. Cuando el aire está caliente, asciende, haciendo bajar la presión y 
