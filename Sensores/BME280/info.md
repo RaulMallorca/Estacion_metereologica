@@ -1,3 +1,21 @@
+Las especificciones del sensor BME280, no confundirlo con el BMP280 que no mide la humedad, son las siguientes:
+
+1. Resolución humedad 0.008 %RH
+  - Tolerancia precisión absoluta ± 3 %RH
+  
+1. Resolución presión 0.18 Pa 
+  - Rango de medición 300 a 1100 hPa
+  - Tolerancia precisión absoluta 
+    - 300 ... 1100hPa y -20 ºC ...0 ºC ±1.7 hPa
+    - 300 ... 1100hPa y 0 ºC ... 65ºC ±1 hPa
+    - 300 ... 1100hPa y 25 ºC... 40 ºC ±1.5 hPa
+  
+1. Resolución temperatura 0.01 ºC
+  - Tolerancia precisión absoluta 
+    - 0 ºC ... 65 ºC ± 1ºC
+    - -20 ºC ... 0 ºC ±1.25 ºC
+    - - 40 ºC ... -20 ºC ±1.5 ºC
+
 Un pequeño problema que me surgió a la hora de conseguir comunicación con el módulo del sensor BME280 fue el no haber tenido en cuenta que venía sin el puente de unión para elegir la dirección I2C. No conseguí encontrar referencias sobre las direcciones hasta que visité la magnífica página de [patagoniatec.com](http://patagoniatec.com) donde detallaban este tema en concreto.
 
 Si hacéis la soldadura, no habrá mayor problema. Como a día de hoy, 24/12/2020 sigo esperando más sensores que usarán el protocolo I2C, no quería hacer el puente para después que me coincidiera alguna dirección con otro sensor y tuviera que desoldar. 
