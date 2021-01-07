@@ -93,7 +93,7 @@ Connection to GND disables the heater.
 
 **VELOCIDAD DEL VIENTO**
 
-**UV ML8511**
+**UV ML8511 y ADC ADS1115**
 
 ![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/master/pictures/ML8511.jpg)
 
@@ -101,6 +101,12 @@ Connection to GND disables the heater.
 
 • Current consumption  300 μA 
                       standby current 0.1 μA
+
+El sensor **UV ML8511** al necesitar dos pines analógicos y el NodeMCU disponer solo de 1, necesitamos un multiplexor/desmultiplexor, como el ADS1115.
+
+![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/master/Sensores/ML8511_ADS1115ADC/ADS1115_ADC_pines.png)
+
+Según el ejemplo de Sparkfun, las conversiones analógicas a digitales dependen completamente del voltaje. Si alimentamos el sensor mediante la placa y esta a través de un USB, el voltaje puede variar de 5,25V a 4,75V. Por eso utilizaremos los 3,3V del NodeMCU. El pin marcado con **3,3V** del sensor irá conectado a **3,3V** y al **pin A1** del ADS1115. El pin **Out** irá al pin analógico **A0** del ADS1115. El **EN** ira a **3,3V** también. En el apartado de sensores/Ml8511...puedes ver el esquemático.
 
 
 **Pantalla Nextion NX8048P070-011C-Y**
