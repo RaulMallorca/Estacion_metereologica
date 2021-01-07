@@ -30,7 +30,7 @@ Las especificiaciones del ADC ADS1115 son las siguientes:
 - Corriente entrada analógica 100mA momentary 
 - Corriente de entrada analógica 10mA continuous
 
-**- Voltaje entrada analógica  a GND –0,3V a VDD + 0,3V**
+- **Voltaje entrada analógica  a GND –0,3V a VDD + 0,3V**
 - SDA, SCL, ADDR, ALERT/RDY voltaje a GND –0,5V a +5,5V
 
  ![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/master/Sensores/ML8511_ADS1115ADC/ADS1115_ADC.png)
