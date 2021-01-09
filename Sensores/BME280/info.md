@@ -1,5 +1,6 @@
 Las especificciones del sensor **BME280**, no confundirlo con el **BMP280** que no mide la humedad, son las siguientes:
 
+- Conexión I2C
 - Resolución humedad 0.008 %RH
 - Tolerancia precisión absoluta ± 3 %RH
   
