@@ -4,9 +4,14 @@ Las características del sensor **BH1750** son las siguientes:
 - Alta resolución, (1 - 65535 lx) 
 ```
 lightMeter.begin(BH1750::ONE_TIME_HIGH_RES_MODE);
-o
+```
+En este modo el sensor mide una vez y automaticamente entra en el modo apagado.
+O:
+```
 lightMeter.begin(BH1750::CONTINUOUS_HIGH_RES_MODE);
 ```
+En este modo el sensor mide continuamente.
+
 - Baja dependencia al tipo de luz. (Incandescente, fluorescente, halógena, LED, sol)
 - Resutado de medición ajustable teniendo en cuenta el "cascarón" que cubre el sensor. (Es posible detectar un mínimo de 0,11 lx, un máximo de 100000 lx utilizando esta función.)
 - ±20% de error
