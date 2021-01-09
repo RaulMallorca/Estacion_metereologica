@@ -48,11 +48,12 @@ La v3 que yo tengo, solo se puede usar a 9600 bps Al establecer conexión median
             
 • Presión (300-1100 hPa, precisión de ±1 Pa, y resolución de 0,18 Pa)         
 
-• Current consumption 1.8 μA a 1Hz - Humedad y temperatura
-                    2.8 μA a 1Hz - Presión y temperatura
-                    3.6 μA a 1Hz - Humedad, presión y temperatura
-                    0.1 μA in sleep mode
-		    V 3,3V
+• Current consumption 
+ -1.8 μA a 1Hz - Humedad y temperatura
+ - 2.8 μA a 1Hz - Presión y temperatura
+ - 3.6 μA a 1Hz - Humedad, presión y temperatura
+ - 0.1 μA in sleep mode
+- V 3,3V
             
 **SENSOR LLUVIA YL-83**
 
