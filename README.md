@@ -5,8 +5,8 @@ _Este proyecto está basado en la colaboración de todas esas personas que compa
 _En algun lugar de este readme.me intentaré añadir todos los enlaces, gracias a los cuales, espero conseguir realizar la estación meteorológica._
 
 Descripción del proyecto
-_La estación medirá la temperatura, humedad, presión, tanto interior como exterior, rayos UV, velocidad del viento y lluvia. Los datos se visualizarán en un dashboard creado 
-en la plataforma de gestión de datos Thinger.io además de en una pantalla Nextion situada dentro del hogar.
+_La estación medirá la temperatura, humedad, señal RSSI wifi, tanto interior como exterior, presión, rayos UV-A y UV-B, velocidad y dirección del viento y lluvia. Los datos se visualizarán en un dashboard creado 
+en la plataforma de gestión de datos Thinger.io. Además con otro NodeMCU donde se obtendrán los datos de temperatura, humedad y señal RSSI wifi, interior, se mostrarán en una pantalla Nextion de 7".
 
 
 ## Material necesario 🚀
@@ -27,14 +27,15 @@ Conversor Serie-USB, el CH340G
 
 Tiene pines, un LED y dos botones, uno para reinicio y otro para flasheo.
 
-Se alimenta a 3V.
+Se alimenta a 3,3V.
 
-3 salidas de 3V
+3 salidas de 3,3V
 
 1 de 5 (Solo da 5V si en las otras no hay nada conectado)
 
 La v3 que yo tengo, solo se puede usar a 9600 bps Al establecer conexión mediante el puerto serie, *Serial.begin (9600);*
 
+Necesataremos 2 placas.
 
 **SENSORES**
 
@@ -54,6 +55,8 @@ La v3 que yo tengo, solo se puede usar a 9600 bps Al establecer conexión median
  - 3.6 μA a 1Hz - Humedad, presión y temperatura
  - 0.1 μA in sleep mode
 - V 3,3V
+
+Necestaremos 2 sensores.
 
 **BH1750**
 
@@ -75,7 +78,9 @@ Especificaciones:
 - Consumo
   - mín 0,01 μA
   - max 190 μA
-  
+
+Necestaremos 1 sensor.
+
 **SENSOR LLUVIA YL-83**
 
 ![alt text](https://github.com/RaulMallorca/Estacion_metereologica/blob/master/pictures/Sensor_lluvia.jpg)
