@@ -184,7 +184,7 @@ void timer ()
     altitud = varExtract ("Altitud aproximada", lastBucketValue);
     lumi = varExtract ("Luminosidad", lastBucketValue);
     uV = varExtract ("Indice UV", lastBucketValue);
-    p_Rocio = varExtract ("Punto de rocío", lastBucketValue);
+    p_Rocio = varExtract ("Punto de rocio", lastBucketValue);
     dViento = varExtract ("Ángulo", lastBucketValue);
     fViento = varExtract ("Viento-(V)", lastBucketValue);
     lLuvia1h = varExtract ("Lluvia1h", lastBucketValue);
